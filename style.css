@@ -158,12 +158,13 @@ height:80vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right:20px;
 }
 .copyright p {
     color: black;
     text-align: center;
     margin-left: 1px;
-    margin-right: 100px;
+   
 }
 /*redes sociales*/
 
