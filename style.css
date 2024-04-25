@@ -152,7 +152,7 @@ height:80vh;
 .copyright {
     position: absolute;
     bottom: 0px;
-    left: 1500px;
+    left: 700px;
     margin-bottom: 20px;
     padding: 0 100px 30px;
     display: flex;
@@ -163,6 +163,7 @@ height:80vh;
     color: black;
     text-align: center;
     margin-left: 1px;
+    margin-right: 20px;
 }
 /*redes sociales*/
 
