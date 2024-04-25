@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="he1">
+        <!--a+ul>li*4-->
+        <ul class="navbar">
+            <li>
+                <a href="index.html">Principal</a>
+            </li>
+            <li>
+                <a href="quiensoy.html">Quién soy</a>
+            </li>
+            <li>
+                <a href="cv.html">CV</a>
+            </li>
+            <li>
+                <a href="misproyectos.html">Proyectos destacados</a>
+            </li>
+            <li>
+                <a href="formulario.html">Contacto</a>
+            </li>
+        </ul>
+    </header>
+    <div class="contenedor">
+        <h1>Contacta Conmigo</h1>
+        <form action="mailto:angela.moreno@correo.com" method="get" class="contact-form">
+            <fieldset>
+                <legend>Datos personales</legend>
+                <label for="nombreApellido">Nombre y Apellido:</label>
+                <input type="text" name="nombreApellido" id="nombreApellido">
+                <label for="correoElectronico">Correo electrónico:</label>
+                <input type="email" name="correoElectronico" id="correoElectronico">
+               
+            </fieldset>
+            <fieldset>
+                <legend>Preferencias</legend>
+                <p>Seleccione su interés:</p>
+                <label><input type="radio" name="Contacto" value="Personal"> Personal</label>
+                <p><label><input type="radio" name="Contacto" value="Profesional"> Profesional</label></p>
+                
+                <p>Elija fecha preferente de reunión:</p>
+                <br>
+                <label for="fechaReunion">Fecha de reunión:</label>
+                <br>
+                <input type="date" name="fechaReunion" id="fechaReunion">
+             
+            </fieldset>
+            <fieldset>
+                <legend>Comentarios</legend>
+                <label for="comentarios">Comentarios:</label>
+                <textarea name="comentarios" id="comentarios" cols="30" rows="5" minlength="5" maxlength="240" placeholder="Escribe aquí tu comentario ..."></textarea>
+                
+            </fieldset>
+            <input class="boton"  type="submit" value="Enviar">
+        </form>
+    </div>
+</body>
+</html>
